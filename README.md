@@ -2,6 +2,5 @@
 
 ---------------------------
 #### This repository contains demo and exercise projects of the SE 2021/22
-#### Each branch includes an example.
 
 :feet: Author: Mer Sa
