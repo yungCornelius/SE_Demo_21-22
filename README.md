@@ -3,4 +3,4 @@
 ---------------------------
 #### This repository contains demo and exercise projects of the SE 2021/22
 
-:feet: Author: Mer Sa
+:feet: Author: Mer Sa 👩🏻
