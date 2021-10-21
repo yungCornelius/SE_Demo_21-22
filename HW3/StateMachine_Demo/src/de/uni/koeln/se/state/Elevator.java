@@ -11,7 +11,6 @@ public class Elevator{
 	public Elevator (int dest_floor)
 	{
 		this.dest_Floor=dest_floor;
-	//State.Current_State = State.Idle;
 	System.out.println("*** Destination floor is: "+ dest_Floor);
 	arrive_atFloor();
 
