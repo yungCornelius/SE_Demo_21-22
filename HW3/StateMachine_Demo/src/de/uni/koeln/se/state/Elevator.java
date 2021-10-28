@@ -18,7 +18,17 @@ public class Elevator{
 	}
 
 	private void arrive_atFloor() {
-		
+		if(dest_Floor < current_Floor) {
+			current_Floor--;
+			System.out.println("State: " + State.Moving_down + "; current floor: " + dest_Floor);
+			arrive_atFloor();
+		} else if(dest_Floor > current_Floor) {
+			current_Floor++;
+			System.out.println("State: " + State.Moving_up + "; current floor: " + dest_Floor);
+			arrive_atFloor();
+		} else {
+			System.out.println("We arrived the Destination floor: " + dest_Floor);
+		}
 	}
 
 	
