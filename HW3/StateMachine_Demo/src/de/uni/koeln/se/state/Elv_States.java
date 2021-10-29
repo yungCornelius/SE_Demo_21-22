@@ -2,7 +2,7 @@ package de.uni.koeln.se.state;
 
 public class Elv_States {
 	
-	
+	public  String current_State;
 	
 	public  String Idle = "Idle"; // state 0
 	public  String Moving_up = "Moving_up"; // state 1
@@ -11,7 +11,7 @@ public class Elv_States {
 	
 	public Elv_States ()
 	{
-		
+		current_State = Idle;
 	}
 
 }
