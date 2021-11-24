@@ -15,7 +15,6 @@ public class Electronic implements HouseholdItem{
 
 
 	public Electronic(String name, int lenght, int width, int height, int weight, Boolean fragile) {
-		super();
 		this.name = name;
 		this.lenght = lenght;
 		this.width = width;

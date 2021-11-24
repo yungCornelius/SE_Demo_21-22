@@ -14,7 +14,6 @@ public class Furniture implements HouseholdItem{
 
 	
 	public Furniture(String name, String type, int lenght, int width, int height, int weight) {
-		super();
 		this.name = name;
 		this.type = type;
 		this.lenght = lenght;

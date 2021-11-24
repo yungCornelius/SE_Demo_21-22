@@ -11,7 +11,6 @@ public class Glass implements HouseholdItem{
 
 	
 	public Glass(String name, int lenght, int width, int height, int tickness) {
-		super();
 		this.name = name;
 		this.lenght = lenght;
 		this.width = width;
